@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "mc-pixels";
+    src: url("fonts/mc.ttf");
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: grey;
+    color: white;
+}
+
+canvas{
+    border: 2px solid black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button{
+    display:block;
+    margin: auto;
+}
+
+p{
+    margin-top: 2%;
+    text-align: center;
+}
